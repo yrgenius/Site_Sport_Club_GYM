@@ -1,0 +1,32 @@
+.exercise{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 155px 0 116px;
+    max-width: 790px;
+
+    .title{
+        text-transform: capitalize;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    &__text{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.exercise__foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & img:nth-child(2n){
+        margin-top: 50px;
+    }
+}
