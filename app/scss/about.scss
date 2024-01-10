@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 177px 0 155px;
+
+    &__title{
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    &__text{
+        position: relative;
+        max-width: 55%;
+        line-height: 2.2;
+        
+        &::before{
+            content: '';
+            position: absolute;
+            left: -16px;
+            top: 10px;
+            height: 100px;
+            width: 1px;
+            background: $rd;
+        }
+    }
+}
